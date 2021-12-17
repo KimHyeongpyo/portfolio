@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0;  padding: 0; text-decoration: none;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+}
+header ul{
+  border: 0px solid white;
+  width: 1200px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+header ul li{
+  border: 0px solid red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1{width: 100px;}
+.menu2{width: 70%;}
+.menu3{
+  width: 125px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.menu3:hover{background-color: #434343;}
+
+.blank{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text01-1{
+}
+
+.text01-2{
+}
+
+.center1{
+  margin-left: 160px;
+  margin-right: 160px;
+}
+
+.text01-3{
+  opacity: 30%;
+  transform: translateY(30px);
+}
+
+.text01-4{
+  opacity: 30%;
+  transform: translateY(30px);
+}
+
+.text01-5{
+  opacity: 30%;
+  transform: translateY(30px);
+}
+
+.text01-6{
+  opacity: 30%;
+  transform: translateY(30px);
+}
+
+.text01-7{
+  transform: translateY(30px);
+}
+
+.text01-8{
+  opacity: 30%;
+  transform: translateY(30px);
+}
+
+.line{
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img2021{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items:
+}
+
+.table2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.arrow{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  padding: 25px 0px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0;  padding: 0; text-decoration: none;}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header{
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+}
+header ul{
+  border: 0px solid white;
+  width: 1200px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+header ul li{
+  border: 0px solid red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1{width: 100px;}
+.menu2{width: 70%;}
+.menu3{
+  width: 125px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.menu3:hover{background-color: #434343;}
+
+.block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text{
+  white-space : nowrap;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-transform: capitalize;
+}
+
+.title{
+  border: 0px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-left{
+  border: 0px solid red;
+}
+
+.title-right{
+  border: 0px solid blue;
+}
+
+.back{
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.text00-01{
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+
+.text00-02{
+  margin-top: 10px;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+
+.text00-03{
+  margin-top: 54px;
+  white-space : nowrap;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.center0{
+  margin-left: 185px;
+}
+
+.text00-04{
+  white-space : nowrap;
+  text-align: right;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  position: relative;
+  bottom: -89px;
+}
+
+.img00{
+  margin-top: 30px;
+  position: relative;
+  bottom: -89px;
+}
+
+.marginblock{
+  margin-top: 150px;
+}
+
+.zone1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text1-1{
+  font-weight: 700;
+  font-size: 30px;
+  transform: translateX(-587px);
+}
+
+.text1-2{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  transform: translateX(-587px);
+}
+
+.youtube{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zone2{
+  display: flex;
+  justify-content: center;
+}
+
+.text2-1{
+  font-weight: 700;
+  font-size: 30px;
+  transform: translateY(-0px);
+}
+
+.text2-2{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  transform: translateY(-0px);
+}
+
+.center02{
+  margin-left: 295px;
+}
+
+.zone3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text3-1{
+  font-weight: 700;
+  font-size: 30px;
+  transform: translateX(-550px);
+}
+
+.text3-2{
+  margin-top: 10px;
+  font-weight: 300;
+  font-size: 15px;
+  margin-bottom: 50px;
+  transform: translateX(-550px);
+}
+
+.slidebox {max-width:1200px;margin:0 auto;position:relative;}
+.slidebox .slidelist {position:relative;white-space:nowrap;font-size:0;overflow:hidden;}
+.slidebox .slidelist .slideitem {position:relative;display:inline-block;vertical-align:middle;background-color:#0D0D0D;width:100%;transition:all 1s;}
+.slidebox .slidelist .slideitem > a {display:block;width:auto;position:relative;}
+.slidebox .slidelist .slideitem > a img {max-width:100%;}
+
+.slidebox .slide-control [class*="control"] label {position:absolute;z-index:10;top:50%;transform:translateY(-50%);padding:20px;border-radius:50%;cursor:pointer;}
+.slidebox .slide-control [class*="control"] label.prev {left:-70px;background:#333 url('../img/left-arrow.png') center center / 50% no-repeat;}
+.slidebox .slide-control [class*="control"] label.next {right:-70px;background:#333 url('../img/right-arrow.png') center center / 50% no-repeat;}
+
+[name="slide"] {display:none;}
+#slide01:checked ~ .slidelist .slideitem {left:0;}
+#slide02:checked ~ .slidelist .slideitem {left:-100%;}
+#slide03:checked ~ .slidelist .slideitem {left:-200%;}
+#slide04:checked ~ .slidelist .slideitem {left:-300%;}
+
+.slide-control [class*="control"] {display:none;}
+#slide01:checked ~ .slide-control .control01 {display:block;}
+#slide02:checked ~ .slide-control .control02 {display:block;}
+#slide03:checked ~ .slide-control .control03 {display:block;}
+#slide04:checked ~ .slide-control .control04 {display:block;}
+
+
+
+
+
+
+.line{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

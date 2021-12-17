@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0;  padding: 0; text-decoration: none;}
+
+header{
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+}
+header ul{
+  border: 0px solid white;
+  width: 1200px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+header ul li{
+  border: 0px solid red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1{width: 100px;}
+.menu2{width: 70%;}
+.menu3{
+  width: 125px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.menu3:hover{background-color: #434343;}
+
+
+.box{
+  width: 100%;
+  height: 85vh;
+  background-image: url(img/main/img01.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.boxtext{
+  width: 100%;
+  height: 85vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.boxtext img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.text01{
+  margin-top: 40px;
+  margin-bottom: 5px;
+  margin-left: 50%;
+}
+.text01 img{
+  transform: translateX(-50%);
+}
+
+.text02{
+  margin-top: 5px;
+  margin-bottom: 40px;
+  margin-left: 50%;
+}
+.text02 img{
+  transform: translateX(-50%);
+}
+
+.table{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.left{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.work{
+  margin: 30px;
+  white-space : nowrap;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 25px;
+  transform: translateX(75%);
+}
+
+.text04bg{
+  padding: 50px 0px 0px;
+  margin-top: 50px;
+  background-color: black;
+}
+
+
+.text04{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-497px);
+}
+
+.text05{
+  padding: 50px 0px 40px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright{
+  padding: 25px 0px 20px;
+  background-color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

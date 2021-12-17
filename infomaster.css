@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0;  padding: 0; text-decoration: none;}
+
+header{
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  background-color: #0D0D0D;
+  display: flex;
+  justify-content: center;
+  opacity: 70%;
+}
+header ul{
+  border: 0px solid white;
+  width: 1200px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+}
+header ul li{
+  border: 0px solid red;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu1{width: 100px;}
+.menu2{width: 70%;}
+.menu3{
+  width: 125px;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.menu3:hover{background-color: #434343;}
+
+.box{
+  background: linear-gradient(228deg, #00fff0, #ff006c, #00fff0, #ff006c);
+  background-size: 800% 800%;
+  -webkit-animation: AnimationName 31s ease infinite;
+  -moz-animation: AnimationName 31s ease infinite;
+  -o-animation: AnimationName 31s ease infinite;
+  animation: AnimationName 31s ease infinite;
+}
+@-webkit-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@-moz-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@-o-keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+@keyframes AnimationName {
+  0%{background-position:0% 92%}
+  50%{background-position:100% 9%}
+  100%{background-position:0% 92%}
+}
+
+.text01{
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text01 img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-40%) translateX(-50%);
+}
+
+.text02{
+  margin-top: 70px;
+  margin-bottom: 65px;
+  margin-left: 50%;
+}
+.text02 img{
+  transform: translateX(-50%);
+}
+
+.box2{
+  width: 100%;
+  height: 2300px;
+  background-image: url(img/info/img02.png);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.text03{
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text03 img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.text04{
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text04 img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.text05{
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text05 img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.text06{
+  width: 100%;
+  height: 1000px;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.text06 img{
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%);
+}
+
+.copyright{
+  padding: 25px 0px 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
